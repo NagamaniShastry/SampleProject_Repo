@@ -8,7 +8,10 @@ public class CreateContactTest {
 	@Test
 	public void createContactTest()
 	{
-		
+		String url = System.getProperty("url");
+		String browser = System.getProperty("browser");
+		String username = System.getProperty("username");
+		String password = System.getProperty("password");
 		System.out.println("ContactTest");
 		
 	}
